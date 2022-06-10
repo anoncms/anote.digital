@@ -1,9 +1,9 @@
 {
   "lang": "en",
   "html": {
-    "title": "AINT Wallet",
-    "description": "AINT crypto currency can be mined, sent, received, exchanged or sold and used right from the start to purchase ads on our Telegram ad channel - AnonShout.",
-    "url": "https://aint.digital",
+    "title": "Anote Wallet",
+    "description": "Anote crypto currency can be mined, sent, received, exchanged or sold and used right from the start to purchase ads on our Telegram ad channel - AnonShout.",
+    "url": "https://anote.digital",
     "logoUrl": "./img/logo.png",
     "fbImg": "https://www.anonutopia.com/static/img/fb.png?v=1.0.0"
   },
@@ -11,9 +11,9 @@
     "password": "Enter password"
   },
   "newAccount": {
-    "newTitle": "New AINT Account",
+    "newTitle": "New Anote Account",
     "register": "Register",
-    "importTitle": "Import AINT account",
+    "importTitle": "Import Anote account",
     "seed": "Seed words",
     "import": "Import account",
     "new": "New account"
@@ -21,13 +21,13 @@
   "password": "Password",
   "repeatPassword": "Repeat Password",
   "main": {
-    "helpUrl": "https://t.me/aintdigital"
+    "helpUrl": "https://t.me/anotedigital"
   },
   "home": {
     "seedWarning": "Save your seed words for backup purposes. You can find them in settings. <strong><u>You are responsible for your account.</u></strong>",
     "tab1": "AnonEuro",
     "tab2": "Mining",
-    "tab3": "AINT",
+    "tab3": "Anote",
     "tab4": "Banker",
     "tab5": "Exchange",
     "balance": "Balance",
@@ -40,9 +40,9 @@
     "aintCurrency": "AINTs",
     "aintEarnings": "Accumulated AINT earnings",
     "aintCollectEarnings": "Withdraw",
-    "balanceWaves": "AINT Balance",
+    "balanceWaves": "Anote Balance",
     "balanceAINTs": "AINT Balance",
-    "mineMessage": "AINTs can be mined in a simple way using Telegram messenger. You can read more about mining <a href=\"https://www.anonutopia.com/beginner\" target=\"_blank\">here</a>."
+    "mineMessage": "Anote can be mined in a simple way using Telegram messenger. You can read more about mining <a href=\"https://www.anonutopia.com/beginner\" target=\"_blank\">here</a>."
   },
   "receive": {
     "account": "Account Address",
@@ -50,7 +50,7 @@
     "qr": "QR Code"
   },
   "send": {
-    "feeMessage": "Transaction fee is <span id=\"feePrice\">0.001</span> <span id=\"feeAsset\">AINT</span> no matter the amount.",
+    "feeMessage": "Transaction fee is <span id=\"feePrice\">0.001</span> <span id=\"feeAsset\">Anotes</span> no matter the amount.",
     "amount": "Amount",
     "amount2": "Amount ANOTEs",
     "address": "Address",
@@ -112,7 +112,7 @@
       "oldRequired": "Old password is required."
     },
     "send": {
-      "notEnough": "You don't have enough on your account, the fee is 0.3 ANOTEs.",
+      "notEnough": "You don't have enough on your account, the fee is 0.3 Anotes.",
       "bothRequired": "Both fields are required."
     },
     "exchange": {
