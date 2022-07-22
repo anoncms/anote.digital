@@ -428,8 +428,6 @@ class Wallet {
                     amount: Math.floor(amount * decimalPlaces),
                     recipient: recipient,
                     assetId: currency,
-                    feeAssetId: feeCurrency,
-                    fee: fee,
                     attachment: attachment
                 }).broadcast();
                 $("#sendSuccess").fadeIn(function(){
