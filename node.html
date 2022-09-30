@@ -111,7 +111,59 @@
             <div class="row">
 
                 
-                <p>This page is under construction.</p>
+                <main id="main" class="col-md-9">
+                    <div class="blog">
+                        <div class="blog-img">
+                            <img class="img-responsive" src="./static/img/anote_logo.png?v=1.0.1" alt=""><br>
+                        </div>
+                        <div class="blog-content">
+
+                            <h3>How To Run Anote Node</h3>
+
+                            <p><strong>Software requirements:</strong> Ubuntu Server 20.04 LTS</p>
+
+                            <p><strong>Hardware requirements:</strong> At this point, it is still enough to use the smallest <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> droplet ($6).</p>
+
+                            <p><u>To install and run a node follow these simple steps:</u></p>
+
+                            <h4>1. Create a Digital Ocean account and run a droplet.</h4>
+
+                            <p>Open an account on <a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a> if you don't already have one. After that, run the cheapest droplet by selecting these options:</p>
+
+                            <p><ul>
+                                <li>- Distribution: Ubuntu 20.04</li>
+                                <li>- Plan: Basic (shared CPU)</li>
+                                <li>- CPU options: Regular with SSD <strong>and</strong> 1 GB / 1 CPU</li>
+                                <li>- Datacenter region: any</li>
+                                <li>- Authentication: Password or SSH if you know how to use it</li>
+                                <li>- Additional options: none</li>
+                            </ul></p>
+
+                            <h4>2. Install Anote node.</h4>
+
+                            <p>After creating droplet is finished, access console by  clicking three dots on the right side of the droplet and then choosing "Access console" option. Enter password you received on your email upon creating a droplet and then paste this command in the shell:</p>
+
+                            <p><code>wget https://raw.githubusercontent.com/anotedigital/anote-node/main/conf/install.sh && chmod +x install.sh && ./install.sh</code></p>
+
+                            <p>This will take some time. If you already haven't, open an account on <a href="https://anote.one" target="_blank">Anote One</a> wallet and copy your Anote address. After the droplet has finished and rebooted, access console again and enter this command while using your copied Anote address:</p>
+
+                            <p><code>./anote-node YOURANOTEADDRESS</code></p>
+
+                            <p>And that's it, you are now running an Anote node. The mining will start in 1000 blocks (~17 hours) and you will start receiving anotes in your wallet. Welcome! 🚀</p>
+
+                        </div>
+                    </div>
+                </main>
+                
+                <aside id="aside" class="col-md-3 hidden-sm-down">
+                    <div class="widget">
+                        <h3 class="title">Menu</h3>
+                        <div class="widget-category">
+                            <a href="/mine">Mine Anote</a>
+                            <a href="/node">Run Anote Node</a>
+                        </div>
+                    </div>
+                </aside>
                 
             </div>
             
