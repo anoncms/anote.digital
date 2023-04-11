@@ -150,9 +150,17 @@
 
                             <p><code>wget https://raw.githubusercontent.com/anotedigital/anote-node/main/conf/install.sh && chmod +x install.sh && ./install.sh</code></p>
 
-                            <p>This will take some time. If you already haven't, open an account on <a href="https://anote.one" target="_blank">Anote One</a> wallet and copy your Anote address. After the droplet has finished and rebooted, access console again and enter this command while using your copied Anote address:</p>
+                            <p>This will take some time. After the droplet has finished and rebooted, access console again and enter this command to get your node's address:</p>
 
-                            <p><code>./anote-node YOURANOTEADDRESS</code></p>
+                            <p><code>./anote-node -init</code></p>
+
+                            <p>Copy your node's address, open your <a href="https://anote.one" target="_blank">Anote One</a> wallet and send 0.007 anotes to your node address.</p>
+
+                            <p>Now copy your Anote address from your <a href="https://anote.one" target="_blank">Anote One</a> wallet, go back to node console and run this command using Anote address from your wallet (not node's address):</p>
+
+                            <p><code>./anote-node -install YOURANOTEADDRESS</code></p>
+
+                            <p>Contact admins in the Telegram group to get a lease for your node.</p>
 
                             <p>And that's it, you are now running an Anote node. The mining will start in 1000 blocks (~17 hours) and you will start receiving anotes in your wallet. Welcome! 🚀</p>
 
